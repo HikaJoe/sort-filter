@@ -1,0 +1,74 @@
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0px;
+    height: 130px;
+    background-color: rgb(12, 10, 53);
+    font-size: large;
+  }
+
+  .jumbotron {
+    margin-bottom: 0;
+  }
+
+  footer {
+    background-color: rgb(15, 15, 59);
+    padding: 25px;
+  }
+
+  #s-btn{
+    width: auto;
+
+  }
+
+
+  #s-btn:hover{
+    background-color: rgb(5, 5, 43);
+    color: white;
+  }
+
+  #s-bar{
+    width: 350px;
+  }
+
+
+
+/* .btn{
+    width: 320px;
+    margin-top:50px;
+    margin-bottom: 30px;
+  
+} */
+
+.searchbar{
+  margin-left: 340px;
+  margin-top:18px;
+}
+
+.icons{
+  margin-left: 70%;
+  margin-top: -90px;
+  font-size: large;
+}
+
+body{
+    background-color: rgb(245, 246, 247);
+}
+
+.img-fluid{
+    width:90px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius:6px;
+}
+
+.nav{
+    margin-top: 10px;
+    margin-left: 200px;
+    
+}
+
+
+ /* .container-fluid{
+    color: rgb(245, 245, 245);
+}  */

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="online.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script>
+    function myFunction() {
+    document.getElementById("parts").style.color = "yellow";
+  }
+  </script>
+ 
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-inverse">
+  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand"><img src="Images/Logo.png" class="img-fluid" href="#"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a id="prebuilt" onclick="" href="#">Pre-built Computers</a></li>
+        <li><a id="parts" onclick="myFunction()" href="#">Computer parts</a></li>
+        <li><a href="#">Maintenance</a></li>
+        <li><a href="#">Contact</a></li>
+
+        
+        <li><input type="search"  id="s-bar" class="btn rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+        </li>
+         <li><button type="button" id="s-btn" class="btn btn-outline-primary">search</button>
+         </li>
+         <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+
+      </ul>
+     
+
+      
+
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="#"><span class="glyphicon glyphicon-sort"></span> Sort</a></li>
+        <!-- filter icon -->
+        <li><a href="#"><span class="glyphicon glyphicon-filter"></span> Filter</a></li>
+
+
+
+        <li>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+
+
+      </ul>
+    </div>
+
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Item Name.</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Item Description.</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">Item Name.</div>
+        <div class="panel-body"><img src="Images/macbookair.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Item Description.</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">Item Name.</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Item Description.</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Item Name.</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Item Description.</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Item Name.</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Item Description.</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Item Name.</div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Item Description.</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p class="text-light">Online Store Copyright></p>  
+</footer>
+
+</body>
+</html>
